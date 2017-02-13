@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "091BA8DD1E51457C001B35F1"
+               BuildableName = "UIView_Animation.app"
+               BlueprintName = "UIView_Animation"
+               ReferencedContainer = "container:UIView_Animation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "091BA8F61E51457C001B35F1"
+               BuildableName = "UIView_AnimationTests.xctest"
+               BlueprintName = "UIView_AnimationTests"
+               ReferencedContainer = "container:UIView_Animation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "091BA9011E51457C001B35F1"
+               BuildableName = "UIView_AnimationUITests.xctest"
+               BlueprintName = "UIView_AnimationUITests"
+               ReferencedContainer = "container:UIView_Animation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "091BA8DD1E51457C001B35F1"
+            BuildableName = "UIView_Animation.app"
+            BlueprintName = "UIView_Animation"
+            ReferencedContainer = "container:UIView_Animation.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "091BA8DD1E51457C001B35F1"
+            BuildableName = "UIView_Animation.app"
+            BlueprintName = "UIView_Animation"
+            ReferencedContainer = "container:UIView_Animation.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "091BA8DD1E51457C001B35F1"
+            BuildableName = "UIView_Animation.app"
+            BlueprintName = "UIView_Animation"
+            ReferencedContainer = "container:UIView_Animation.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
